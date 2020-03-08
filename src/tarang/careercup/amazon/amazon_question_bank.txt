@@ -1,0 +1,346 @@
+1) Find if a binary tree is a binary search tree
+
+2) What is huffman coding (interviewer can explain it if you don't know). Write code to implement huffman coding of a string
+
+3) Reconstruct a BST given its preorder traversal. No extra space is allowed and accomplish this in O(n)
+
+4) Find the two numbers among a set of numbers whose difference is minimum. Follow up: what if the difference is an absolute value, then find the two numbers with minimum difference
+
+5) Find if the given string is a palindrome. E.g. "..AB ,, CD, ED. CB...A..." is a palindrome.
+
+6) Given a binary tree count the number of nodes at each level in the tree. Follow up: count the number of nodes below each node
+
+7) Find the maximum sum path in a binary tree
+
+8) If there is a n-digit, print the digits one by one without using temporary storage and how will you do it efficiently? Example: if the number is 1054 print: 1 0 5 4
+
+9) Given two integer arrays, find their intersection. E.g.: arr1 = {8, 15, 23, 32, 44, 91, 3}, arr2 = {18, 2, 32, 44, 91, 18} -> {32, 44, 91}
+
+10) Compose a sorted array from two already sorted arrays
+
+11) You have an infinite set of coordinates, find out the 10 points closest to the origin
+
+12) Reverse a linked list
+
+13) Given a binary tree and a number X, find if there exists a path that sums to X. Path starts from the root and goes to the leaf
+
+14)
+Write an algorithm to find F(n) the number of bits set to 1, in all numbers from 1 to n for any given value of n.
+
+ For example:
+
+ 1: 001
+ 2: 010
+ 3: 011
+ 4: 100
+ 5: 101
+ 6: 110
+ So
+
+ F(1) = 1,
+ F(2) = F(1) + 1 = 2,
+ F(3) = F(2) + 2 = 4,
+ F(4) = F(3) + 1 = 5,
+ etc.
+
+15) Find the maximum subarray in an array with negative numbers
+
+16) Given an array find 3 elements such that a[i] < a[j] < a[k] and i < j < k in O(n) time.
+
+17) Given a function, take a number and the bit position and return true if that bit is set to 1 and false otherwise.
+
+18) Given an unsorted Array find maximum value of A[j] - A[i] where j>i..in O(n) time
+
+19) Write a Program. You will create an employee class with the following properties:ID (int), FName(string), LName(string).
+ (Functionality) to track an employee's manager and subordinates.
+ Add a method that displays the names of all subordinates for a given employee.
+ Calculate the complexity. Do not use multiple classes.
+
+20) Input linkedlist : 1->9->3->8->5->7->7. Odd indexed are increasing and even indexed are descreasing.
+
+21) Return true if two trees are same
+
+22) print all palindromes of size k possible from given alphabet set.
+    eg alphabet set : {a,e,i,o,u}
+    print all palindromes of size say 10.
+
+23)  Find the all the sequence from Unsorted array.
+
+     Example : {2,4,6,8,10,14,11,12,15,7} is the unsorted array. We have to find out possible sequences.
+     Output would be :
+     Seq 1 : {2,4,6,8,10,11,12,15}
+     Seq 2 : {2,4,6,8,10,14,15}
+
+     Note : if I pick any element in array than next element would be grater than the previous element.
+
+24) Given a BST, convert it so that each node has value equal to sum of all the nodes (including itself) which are
+    greater than that node in the whole tree.
+
+
+25) Given a node in a binary tree, how will you find out if left and right subtrees are mirror images of each other?
+
+26) Implement an in-order traversal of a binary tree using iterator's method
+
+27) Implement the math power function while minimizing the number of multiplications
+
+28) Write a recursive and non-recursive program to generate all possible substrings of a string.
+
+29) Delete extra spaces in a string
+
+30) How do you check a Sudoku game to make sure all the rules have been respected?
+
+31) Find maximum subsequence from a list of numbers containing negative numbers.
+Eg. Max subseq in: {-10, 4, 14, -20, 23, 12, 11, -100} is 46 : {23, 12, 11}
+
+32) Given an array having positive integers, find a continous subarray which adds to a given number
+
+33) Given a linked list, write a function to reverse every k nodes (where k is an input to the function).
+Example:
+Inputs:  1->2->3->4->5->6->7->8->NULL and k = 3
+Output:  3->2->1->6->5->4->8->7->NULL. 
+
+Inputs:   1->2->3->4->5->6->7->80->NULL and k = 5
+Output:  5->4->3->2->1->8->7->6->NULL.
+
+34)
+ There are two methods:
+ void process(int[] A) and void enumerate(int base, int digits);
+ call process with an array for given values of base and digit params:
+ base = 2, digits = 3. Call process() for the following arrays:
+ A = {0, 0, 0}
+ A = {0, 0, 1}
+ A = {0, 1, 0}
+ A = {0, 1, 1}
+ A = {1, 0, 0}
+ A = {1, 0, 1}
+ A = {1, 1, 0}
+ A = {1, 1, 1}
+
+base = 10, digits = 2. Call process() for all possible numbers with length 2 in base 10. There will be 100 of them. 
+So implement enumerate to call process. Cannot change signatures but can create your own methods.
+
+35) Find the min element in a rotated sorted array
+
+36)
+Given an integer n , you have to print all the ways in which n can be represented as sum of positive integers.
+3 = 
+2 1
+1 1 1
+
+37)Given two BST print the elements in sorted order
+
+38)A long array A[] is given to you. There is a sliding window of size w which is moving from the very left of the array to the very right. 
+You can only see the w numbers in the window. Each time the sliding window moves rightwards by one position. Following is an example:
+The array is [1 3 -1 -3 5 3 6 7], and w is 3.
+
+39)
+Given a binary tree, print out the tree in zigzaag level order (ie, from L to R, then R to L for the next level and alternate between them). Ouput a newline
+after the end of each level
+
+Q40)
+We are given three strings: s1, s2, s3
+s3 is said to be a valid shuffle of s1 and s2 if it can be formed by interleaving the characters of s1 and s2 in a way that maintains the left to right ordering of the 
+characters from each string. s1="dude", s2="dog", valid s3="dodudeg"
+Write code that will detect if s3 is a valid shuffle of s1 and s2.
+
+Q41)
+Find next higher number with same digits.
+Ex: given - 61543, output - 63145
+
+Q42)
+Merge 2 sorted linked lists.
+a: 5 --> 10 --> 15
+b: 2 --> 3 --> 20 --> 21
+output: 2 --> 3 --> 5--> 10--> 15--> 20 --> 21
+
+**) Given a binary search tree with each node's structure as follows:
+
+struct Node
+{
+int data;
+Node left, right;
+Node successor;
+};
+
+and all successor pointers set to NULL. Traverse the BST and set successor pointers for each node.
+
+**) Find the maximum contiguous sum in a circular linked list.
+
+**) Given a number find a bigger number with the same digits otherwise return -1. E.g. 5678 -> 8754, 8765 -> -1
+
+**) Given an array of integers (can be both positive and negative), find 3 which multiply to give the largest product
+
+**) Given an array of size N consisting of 3 distinct numbers, how would you sort them using swapping in O(n)?
+
+**) Given pairs of employee-managers, construct an organizational tree of the company.
+E.g. e1:m1, e2:m1, e3:m1, e4:m2, e5:m2...
+
+**) Given an array, find out if there exist a subarray such that its sum is zero.
+
+**) Design a data structure that allows for two operations:
+add(i, x): add x to the ith element (sorted ith)
+sum(i): sum of the first i numbers
+
+Additional memory of O(n) is allows but the two operations should perform in O(log n)
+
+**) Write an algorithm to solve generalized "M liter and N liter jug problem" to check if K liter is possible from an M liter and N liter jug. E.g. M=3, N=4 and K=5. Its possible to measure 5 liter with the help of 3 and 4 liter jugs. Return true or false for parameters M, N and K.
+
+**) Give an algorithm for finding the shorted distance between two words in a text document.
+
+**) Given a set of intergers, find out if there exists a subset whose sum is equal to X.
+
+**) Given a binary tree, find minimum element at a given depth.
+
+**) You have an array in which ever number is repeated odd number of times except one , you have to give that with O(n) time complexity
+
+**) Given a modified BST where each node carries extra information of the total number of nodes below it. Find the Kth smallest number in O(logn) time.
+
+**) Given a set of strings, check whether it is possible to chain all of them. Two strings can be chained iff s1[n] == s2[0] || s2[0] == s1[n]
+
+**) A zero-indexed array A consisting of N integers is given. A triplet (P, Q, R) is triangular if and
+A[P] + A[Q] > A[R],
+A[Q] + A[R] > A[P],
+A[R] + A[P] > A[Q].
+For example, consider array A such that
+A[0] = 10 A[1] = 2 A[2] = 5
+A[3] = 1 A[4] = 8 A[5] = 20
+Triplet (0, 2, 4) is triangular.
+public int triangle(int[] A)
+that, given a zero-indexed array A consisting of N integers, returns 1 if there exists a triangular triplet for this array and returns 0 otherwise.
+Assume that:
+N is an integer within the range [0..100,000];
+each element of array A is an integer within the range[-2,147,483,648..2,147,483,647].
+For example, given array A such that
+A[0] = 10 A[1] = 2 A[2] = 5
+A[3] = 1 A[4] = 8 A[5] = 20
+the function should return 1, as explained above. Given arrayA such that
+A[0] = 10 A[1] = 50 A[2] = 5
+A[3] = 1
+the function should return 0.
+Expected worst-case time complexity: O(n log n)
+Expected worst-case space complexity: O(1)
+
+
+**) Given an array of integers, for each elemnt in the array find the closest greatest element to the right. Closest means the distance between two element's array indices must be minimum . Solution should be better then O(n log n) or better?
+
+**) Given a number X, return the smallest possible list of numbers whose squares sum up X.
+
+**) Code/Define an algorithm to find if a given string has balanced parentheses, where we have 3 types 1. ( ) 2. [ ] 3. { }. Example of Balanced - [{}](), Not balanced - ({)[}]
+
+**) In an NxN matrix whose rows and columns are in sorted order. Implement
+search(int[][] A, x) : returns (i,j) of matrix A where x is located otherwise return null
+median(int[][] A): return the median number
+
+**) Given an array which consists of elements in the following form :
+All the adjacent elements differ only by value -1 or +1.
+You are given an element. You need to search for its index.
+
+**)  Given a n-ary tree. A random leaf node will be selected.Imagine that you are now holding the tree with your hand from that node. All other nodes will now fall under gravity. Write a function to perform this transformation.
+
+**)
+
+Write a program to implement Boggle Game.
+You are given a 4x4 matrix of letters and a dictionary, find all the valid words in the matrix. Following are the conditions
+1. If a letter is used, it should not be used again in the same word search
+2. The word path can be of any direction
+3. There has to be a path of the letters forming the word( in other words all the letters in the word must have to adjacent to one another)
+
+Example:
+
+
+D A T H
+C G O A
+S A T L
+B E D G
+
+
+Some of the Valid words are:
+DATA, HALO, HALT, SAG, BEAT, TOTAL, GLOT, DAG
+
+
+Not valid words:
+DAGCD ( D cannot be used again)
+DOG ( There is no path between letters)
+
+**) Find height of a tree without using recursion
+
+**)
+
+Jump Game:
+Given an array start from the first element and reach the last by jumping. The jump length can be at most the value at the current position in the array. Optimum result is when u reach the goal in minimum number of jumps.
+For ex:
+Given array A = {2,3,1,1,4}
+possible ways to reach the end (index list)
+i) 0,2,3,4 (jump 2 to index 2, then jump 1 to index 3 then 1 to index 4)
+ii) 0,1,4 (jump 1 to index 1, then jump 3 to index 4)
+Since second solution has only 2 jumps it is the optimum result.
+
+**) Given an N-ary tree, find out if it is symmetric about the line drawn through the root node of the tree.
+
+**) Find the ith largest element in an array in O(n)
+
+**) Convert an array {a1 a2 a3 ... an b1 b2 b3 ... bn c1 c2 c3 ... cn} to {a1 b1 c1 a2 b2 c2 ... an bn cn} without using any external storage. In other words, do it in place.
+
+**) Given a value N, generate all possible valid combinations of parentheses. Example N=2, valid output: ()(), (())
+
+**) You are given two strings, delete the letters of second string from first string and print the resultant string Example Input: Hello, Hai Output: ello
+
+**) Given an array of stock prices from day 0 to N-1 of a company X, we have to find the max loss that is possible. Loss occurs if stock is bought at higher price and sold at lower price.
+Example: 1 2 3 7 5 8 9 4 6 10 12
+Max Loss is 9 - 4 = 5 (Possible losses are 8-4 = 4, 7-5 = 2 etc).
+Max difference between stock price is 12 - 1 = 11 but max loss is 9 -4 = 5
+
+**)
+
+a) You have a package repository in which there are dependencies between packages for building like package A has to be built before package B. If you are given dependencies between the packages and package name x, we have find the build order for x.
+Example:
+A ? {B,C}
+B ? {E}
+C ? {D,E,F}
+D ? {}
+F ? {}
+G ? {C}
+
+For package A, build order is E B F D C A (may not unique)
+Given a function Set<Package> getDependencies (Package packageName) which returns a set of dependencies for a given package name, write a method List<Package> getBuildOrder(Package packageName) which returns the build order
+
+b) How would you handle cyclic dependencies (Algo only)
+
+**)
+Given two version numbers as string (can be very long) write a function which returns 1 if first one is latest, -1 if second one is latest and 0 if they are equal.
+Example: 1.2.0.4.5
+1.2.1
+We have write our split method with period as delimeter and we have to handle all the malformed version numbers like 1..2.0 etc and similar other exceptions
+
+**)
+Given a binary Search tree and a Node, How would you transform the tree to make that Node as root.The resulting tree should be a BST.
+
+**)
+How do you find a shortest connection between two persons on Facebook(if it exists)?
+You are provided with an API which returns the list of friends of a particular persons
+
+**)
+Find any substring of length 3 which is present in the reverse order from the string.
+Example: Input : abcdcba Output abc, cba : cdc, cdc
+
+**)
+Given a Binary tree where nodes may have positive or negative value, store the sum of the left and right subtree in the nodes.
+Eg-
+        10
+   -2        6
+8    -4    7    5
+Output:
+          20(-2+6+4+12)
+   4(8-4)    12(7+5)
+ 0    0    0    0
+
+**)
+Given a binary tree print the largest part of binary tree that satisfies the property of BST.
+
+**)
+Given an integer find the next (smallest number greater than given number) integer which is palindrome
+Example: Input: 111 Output: 121, Input: 301 Output: 313
+
+**)
+Given a large document and a short pattern consisting of a few words (eg. W1 W2 W3), find the shortest string that has
+all the words in any order (for eg. W2 foo bar dog W1 cat W3 -- is a valid pattern)

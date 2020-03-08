@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy
+END
+FlyWithWings.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/FlyWithWings.java
+END
+FlyNoWay.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/FlyNoWay.java
+END
+QuackNoWay.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/QuackNoWay.java
+END
+Duck.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/Duck.java
+END
+RubberDuck.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/RubberDuck.java
+END
+MallardDuck.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/MallardDuck.java
+END
+QuackBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/QuackBehavior.java
+END
+Quack.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/Quack.java
+END
+FlyingBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/120/trunk/cracking/cracking/src/tarang/designpatterns/strategy/FlyingBehavior.java
+END
